@@ -1,1 +1,1 @@
-# Capstone3-Mobile-Price-Range-Prediction
+# Capstone3-Email Campaign Effectiveness Prediction

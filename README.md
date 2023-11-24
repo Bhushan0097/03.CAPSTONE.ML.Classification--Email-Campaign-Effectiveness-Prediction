@@ -1,1 +1,1 @@
-# Capstone3-Email Campaign Effectiveness Prediction
+# Email Campaign Effectiveness Prediction

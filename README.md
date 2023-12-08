@@ -118,6 +118,7 @@ Following are the ML algorithms on which the model is trained
 		<th colspan="5" >Train</th>
             </tr>
             <tr>
+		<th > Sr No.</th>
                 <th > Model Name</th>
                 <th >Accuracy</th>
 				<th >Recall</th>

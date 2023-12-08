@@ -103,7 +103,7 @@ Below is  general step-by-step guide on to perform hypothesis testing on a datas
 The dependent variable  is **Rented Bike Count** is a contionus variable. Hence to Regression ML algorithms are used to train the model to predict the depedent variable. <br>
 Following are the ML algorithms on which the model is trained
 <ol> 
-<li> Logistic Regression (Logistic Regression + L2 Regularization ) </li>
+<li> Logistic Regression </li>
 <li> Random Forest Classification </li>
   <li> XGBoost Classification </li>
 </ol>

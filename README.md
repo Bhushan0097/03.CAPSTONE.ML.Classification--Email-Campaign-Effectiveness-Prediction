@@ -110,12 +110,12 @@ Following are the ML algorithms on which the model is trained
 
 
 
-    <table style="width:100%; border-collapse: collapse; margin-bottom: 20px;">
+<table>
         <thead>
             <tr style="background-color:#f2f2f2;">
                 <th colspan="1" ></th>
                 <th colspan="5" >Test</th>
-				<th colspan="5" >Train</th>
+		<th colspan="5" >Train</th>
             </tr>
             <tr>
                 <th > Model Name</th>
@@ -128,8 +128,8 @@ Following are the ML algorithms on which the model is trained
 				<th >Recall</th>
 				<th >Precision</th>
 				<th >F1score</th>
-				<th >AUC</th>
-            </tr>
+    			<th >AUC</th>
+       </tr>
         </thead>
         <tbody>
 <tr>

@@ -1,7 +1,7 @@
 # Email Campaign Effectiveness Prediction
 
 ## Overview
-This repository contains the code and resources for a supervised machine learning project aimed at predicting bike share demand in Seoul, South Korea. The dataset used is `SeoulBikeData.csv`.
+This repository contains the code and resources for a supervised machine learning project aimed at predicting whether a deliverd email will be read , acknowledged or ignored. The dataset used is `data_email_campaign.csv`.
 
 ## Table of Contents
 
@@ -18,24 +18,22 @@ Bike share demand prediction is a critical aspect of urban transportation planni
 
 ## Dataset
 
-The dataset `SeoulBikeData.csv` is included in the  📁 `data` directory. It contains information about bike rentals, including weather conditions, temperature, humidity, and other relevant features.
+The dataset `data_email_campaign.csv` is included in the  📁 `data` directory. It contains information about bike rentals, including weather conditions, temperature, humidity, and other relevant features.
 
-The `SeoulBikeData.csv` file contains the following columns:
+The `data_email_campaign.csv` file contains the following columns:
 
-- **Date**: Year-Month-Day
-- **Rented Bike count**: Count of bikes rented at each hour
-- **Hour**: Hour of the day
-- **Temperature**: Temperature in Celsius
-- **Humidity**: %
-- **Windspeed**: m/s
-- **Visibility**: 10m
-- **Dew point temperature**: Celsius
-- **Solar radiation**: MJ/m2
-- **Rainfall**: mm
-- **Snowfall**: cm
-- **Seasons**: Winter, Spring, Summer, Autumn
-- **Holiday**: Holiday/No holiday
-- **Functional Day**: NonFunctional/Functional Day
+- **Email_Id**    Email id of customer
+- **Email_Type** Email type contains 2 categories :  1 and 2. We can assume that the types are like promotional email or sales email
+- **Subject_Hotness_Score**   It is the email’s subject’s score on the basis of how good and effective the content is
+- **Email_Source_Type**    It represents the source of the email like sales, marketing or product type email
+- **Email_Campaign_Type**   The campaign type of the email   
+- **Customer_Location**    Categorical data which explains the different demographic location of the customers   
+- **Total_Past_Communications**    This columns contains the total previous mails from the same source   
+- **Time_Email_sent_Category**    The time of the day when the email was sent   
+- **Word_Count**    Total count of word in each email   
+- **Total_links**    Total number of links in the email   
+- **Total_Images**    Total Number of images in the email   
+- **Email_Status**    Our target variable which contains whether the mail 
 
 ## Dependencies
 

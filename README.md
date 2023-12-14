@@ -1,4 +1,5 @@
 # Email Campaign Effectiveness Prediction
+![GitHib Logo](https://github.com/Bhushan0097/03.CAPSTONE.ML.Classification--Email-Campaign-Effectiveness-Prediction/blob/main/Header.jpg)
 
 ## Overview
 This repository contains the code and resources for a supervised machine learning project aimed at predicting whether a deliverd email will be read , acknowledged or ignored. The dataset used is `data_email_campaign.csv`.
